@@ -1,0 +1,12 @@
+# REST Client
+###
+
+POST http://127.0.0.1:3333/clientes HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "Angelo",
+  "salario": 4000,
+  "data_nascimento": "2001-07-24T03:00:00.000Z",
+  "ativo": true
+}
